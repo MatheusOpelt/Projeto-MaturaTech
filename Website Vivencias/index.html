@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.jpeg">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>MaturaTech</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.jpeg" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Início</a></li>
+				<li><a href="#portfolio_section">Interações</a></li>
+				<li><a href="#team_section">Equipe</a></li>
+				<li><a href="#services_section">Conteúdos</a></li>
+				<li><a href="#contactus_section">Contato</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Procure aqui..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Vamos começar</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Idade não é uma barreira para o aprendizado</p>
+				<h5>Explore as últimas inovações tecnológicas e mantenha-se atualizado participando do MaturaTech. Descubra novas tecnologias que estão moldando o futuro e aprimore suas habilidades em um ambiente dinâmico e colaborativo.</h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/watch?v=NA8pdCKxkNc" target="_blank">Assista agora!</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpeg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p></p>
+			</div>
+			<ul>
+				<li><a href="#about_section">Sobre</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Equipe</a></li>
+				<li><a href="#services_section">Serviços</a></li>
+				<li><a href="#contactus_section">Contato</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Cursos e Desafios</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/jee.html"><img src="images/courses/book.png">Como evitar golpes?</a></div>
+		<div class="det"><a href="subjects/gate.html"><img src="images/courses/d1.png">Inteligência Artificial</a></div>
+		<div class="det"><a href="subjects/jee.html#sample_papers"><img src="images/courses/paper.png">Boas práticas</a></div>
+		<div class="det"><a href="subjects/quiz.html"><img src="images/courses/d1.png">Quiz Diário</a></div>
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="subjects/computer_courses.html"><img src="images/courses/computer.png">Curso de Informática Básica</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#data"><img src="images/courses/data.png">Curso de aparelhos movéis</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#algo"><img src="images/courses/algo.png">Curso de Aplicativos Básicos</a></div>
+		<div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src="images/courses/projects.png">Projetos</a></div>
+		</div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">Sobre Nós</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpeg">
+				</div>
+				<div class="side-text">
+					<h2>Nosso Objetivo</h2>
+					<p>Este projeto tem como missão oferecer suporte à comunidade do Grupo Matura, proporcionando oportunidades de atualização contínua sobre as mais recentes tecnologias. Nosso objetivo é manter todos informados e capacitados para acompanhar as inovações em constante evolução.</p>
+		</div>
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Interações</p></center>
+		<div class="content">
+			<p>
+				“Na aba de interações, mantemos você conectado e informado sobre a dinâmica do grupo. Aqui, você encontrará estatísticas atualizadas, incluindo o número de participantes envolvidos, perguntas feitas, respostas fornecidas e o total de conteúdos compartilhados. Acompanhe o engajamento e a colaboração em tempo real, fortalecendo ainda mais a nossa comunidade."
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+		<span><center><div class="data">154</div><div class="det">Participantes</div></center></span>
+		<span><center><div class="data">62</div><div class="det">Perguntas Enviadas</div></center></span>
+		<span><center><div class="data">56</div><div class="det">Perguntas Respondidas</div></center></span>
+		<span><center><div class="data">27</div><div class="det">Total de Conteúdos</div></center></span>
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Entusiastas da Ideia</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/Matheus.jpeg"></center>
+				<center><div class="card-title">Matheus Eduardo Opelt</div>
+				<div id="detail">
+					<p>“Conseguir ajudar o grupo Matura a se adaptar as novas tecnologias e também se proteger dos perigos que elas oferecem é o nosso objetivo! “</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/matheusopelt/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/Giovanna.jpeg"></center>
+				<center><div class="card-title">Giovanna Campos Cordeiro</div>
+				<div id="detail">
+					<p>“ Seŕa muito gratificante trazer informações seguras e confiáveis para os integrantes do grupo matura! “</p>
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/giovannaccordeiro/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Conteúdos Aprofundados</p></center>
+		</div>
+		<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Curso Pacote Office</p></div></a>
+		<a href="subjects/jee.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Curso Informática Avançada</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Curso sobre Engenharia Social</p></div></a>
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>Como proteger as suas contas?</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Como navegar de forma segura na internet</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Curso sobre Inteligência Artificial</p></div></a>
+		<a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/q1.png"><p>Como se proteger das fake news?</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>Projeto ajude o próximo</p></div></a>
+	</div>
+
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Fale com a gente</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>Primeiro nome <span class="imp">*</span></label><label style="margin-left: 185px">Sobrenome <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Mensagem <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Detalhes adicionais</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Enviar Mensagem</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Avalie o MaturaTech</span>
+		<div class="shortdesc2">
+			<p>Por favor compartilhe sua avaliação</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>Nome</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Informações Adicionais</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Enviar avaliação</button>
+			</form>
+		</div>
+	</div>
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #000000, #EFD800); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Nunca é tarde para aprender, e não deixe ninguém dizer ao contrário, se atulize e aprimore seus conhecimentos.”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo.jpeg" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text"></p>
+				<br><p><img src="images/icon/location.png">Universidade da Região de Joinville<br></p><br>
+				<p><img src="images/icon/phone.png"> +5547000000-0000<br><img src="images/icon/mail.png">&nbsp; maturatech@email.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Nossas Notícias</h1>
+				<div class="border"></div><br>
+				<p>Insira seu email para receber atualizações sobre o projeto.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Insira seu Email">
+					<input class="btn" type="submit" value="Enviar">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
